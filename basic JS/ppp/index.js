@@ -74,9 +74,9 @@
 // }
 
 // // Test the function
-// console.log(capitalizeWords("hello world")); 
+// console.log(capitalizeWords("hello world"));
 // console.log(capitalizeWords("javascript is awesome"));
-// console.log(capitalizeWords("capitalize each word")); 
+// console.log(capitalizeWords("capitalize each word"));
 
 
 
@@ -167,11 +167,11 @@
 //Here’s how you can use the ternary operator to check if a variable age is 18 or older and assign the appropriate status:
 
 
-// let age = 22; 
+// let age = 22;
 
 // let status = age >= 18 ? "Adult" : "Minor";
 
-// console.log(status); 
+// console.log(status);
 
 
 
@@ -179,7 +179,7 @@
 
 //Here’s how you can write a switch statement in JavaScript to check the value of a variable day and print the name of the day of the week:
 
-// let day = 3; 
+// let day = 3;
 
 // switch (day) {
 //     case 1:
@@ -243,7 +243,7 @@
 Below 60 for "F"*/
 
 
-// let score = 85; 
+// let score = 85;
 
 // let grade;
 
@@ -258,7 +258,7 @@ Below 60 for "F"*/
 // } else if (score < 60) {
 //     grade = "F";
 // } else {
-//     grade = "Invalid score"; 
+//     grade = "Invalid score";
 // }
 
 // console.log(`Grade: ${grade}`);
@@ -266,7 +266,7 @@ Below 60 for "F"*/
 
 //Problem: Write a conditional statement to check if a character char is a vowel (i.e., 'a', 'e', 'i', 'o', 'u'). Print "Vowel" if it is, otherwise print "Not a vowel".
 
-// let char = 'j'; 
+// let char = 'j';
 
 // if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
 //     console.log("Vowel");
@@ -276,23 +276,12 @@ Below 60 for "F"*/
 
 //Problem: Write a conditional statement to check if a variable value is truthy or falsy. Print "Truthy" if value is truthy, otherwise print "Falsy".
 
-// let value = navigator; 
+// let value = navigator;
 
 // if (value) {
 //     console.log("Truthy");
 // } else {
 //     console.log("Falsy");
 // }
-
-
-
-function speak(){
-    var text = document.getElementById('input').value;
-    var utterence = new SpeechSynthesisUtterance(text)
-
-    speechSynthesis.speak(utterence);
-}
-
-
 
 

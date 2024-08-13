@@ -27,7 +27,7 @@
 
 // // Q2
 
-// console.log(typeof(a+b));   
+// console.log(typeof(a+b));
 
 
 
@@ -97,7 +97,7 @@
 // }
 
 
-//                                                        project 
+//                                                        project
 
 // let a = prompt("hey enter the your age");
 //  a = parseInt(a);
@@ -126,7 +126,7 @@
 // }
 
 
-//chapter 2 practice set    chapter 2 practice set   chapter 2 practice set  chapter 2 practice set  chapter 2 practice set  
+//chapter 2 practice set    chapter 2 practice set   chapter 2 practice set  chapter 2 practice set  chapter 2 practice set
 
 
 // problem no 1
@@ -165,7 +165,7 @@
 
 
 
-// for loop ffor loop for loop for loop or loop for loop for loop for loop for loop for loop for loop for loop 
+// for loop ffor loop for loop for loop or loop for loop for loop for loop for loop for loop for loop for loop
 
 
 
@@ -187,7 +187,7 @@
 // const n = 100;
 
 // for(let i = 0; i<n; i++){
-//     sum += i;    
+//     sum += i;
 // }
 // console.log(`sum: ${sum}`);
 
@@ -207,12 +207,12 @@
 //     console.log("Marks of "+a + " are " +  obj[a]);
 // }
 
-// for of loop for of loop for of loop 
+// for of loop for of loop for of loop
 
 
 
 
-// while loop  while loop  while loop  while loop 
+// while loop  while loop  while loop  while loop
 
 
 // let n = prompt("enter the your number");
@@ -233,7 +233,7 @@
 
 
 // let i = 0;
-// const name = "i love you baby"; 
+// const name = "i love you baby";
 
 // do {
 //     console.log( i+ " " + name);
@@ -241,7 +241,7 @@
 // } while (i < 34);
 
 
-// funcation funcation funcation funcation funcation funcation 
+// funcation funcation funcation funcation funcation funcation
 
 
 // function onePlusAvg(x,y){
@@ -298,7 +298,7 @@
 // console.log(obj.Achyut)
 
 
-// string string string string string string 
+// string string string string string string
 
 // let str2 = "please give Rs 1000";
 // let amount = Number.parseInt(str2.slice("please give Rs".length));
@@ -350,7 +350,7 @@
 // let arr = [4,5,6,7];
 // let newarr = arr.map((it)=> it*2);
 // console.log(newarr);
-                                                   
+
 
                                                         //  array filte
 
@@ -362,7 +362,7 @@
 //     console.log(arr2);
 
 
-// Array reduce Array reduce Array reduce Array reduce Array reduce Array reduce Array reduce Array reduce 
+// Array reduce Array reduce Array reduce Array reduce Array reduce Array reduce Array reduce Array reduce
 
 // let number = [23,45,45,2];
 // let arr2 = number.reduce((h1, h2)=>{
@@ -415,7 +415,7 @@
 // let random=words[Math.floor(Math.random()*words.length)]
 // let input;
 // let points=0;
-// let chances=0  
+// let chances=0
 // while(true){
 //     input=prompt("enter a word");
 //     if(input==random){
@@ -430,7 +430,7 @@
 //         console.log("oops there is a snake try agan");
 //         chances++;
 //     } else if(input=="water"&& random=="gun"){
-//         console.log("you win")   
+//         console.log("you win")
 //         points++;
 //         chances++;
 //     } else if(input=="snake"&& random=="gun"){
@@ -447,7 +447,7 @@
 //         console.log("wrong input");
 // chances++;
 //     }
-    
+
 //     if(chances==5){
 //         break;
 //     }
@@ -458,8 +458,22 @@
 
 
 
+//c create 3 div with common class name - box .Access them & add some un text of them
+
+// let divs = document.querySelectorAll(".box");
+// let idx = 1;
+
+// for (divs of divs) {
+//     divs.innerText = `new unique value of div ${idx}`;
+//     idx++;
+// }
 
 
+// Create a H2 heading element with text - "Hello javascript". Append "from Appna college students" to this text using JS.
+//  let h2 = document.querySelector("h2");
+//  console.dir(h2.innerText);
+
+//  h2.innerText = h2.innerText + " from appna college";
 
 
 

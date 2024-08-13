@@ -21,9 +21,25 @@
 
 
 
+// let div = document.querySelector("div");
+// console.log(div);
+
+
+// let id = div.getAttribute("id");
+// console.log(id);
+
+// let name = div.getAttribute("name");
+// console.log(name);
+
+// find cllass name
+// let para1 = document.querySelector("p");
+// console.log(para1.getAttribute("class"));
+
+//chamge the attribute
+
+// let para = document.querySelector("p");
+// console.log(para.setAttribute("class","newClass"));
 
 
 
 
-// Create a H2 heading element with text - "Hello javascript". Append "from Appna collage students" to this text using JS.
- 
