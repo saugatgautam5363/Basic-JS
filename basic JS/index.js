@@ -477,5 +477,84 @@
 
 
 
+/*create a new button element given it a "click me!", background color of
+ red & text color of white 
+ 
+ insert the button as the first element inside the body tag.
+ */
+
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "click Me!";
+// newBtn.style.color = "white";
+// newBtn.style.backgroundColor = "red";
+// let button = document.querySelector("body");
+// button.append(newBtn);
+
+
+/* create a <P> tag in HTML given it a class & some styling. now create a new class in css and try
+ to append this class to the <P> element.
+ did you nitice how you overwrite the classname when you add a new one? Solve this problem using classList. */
+
+/* create a toogle button that screen to dark-mode when 
+                                      clicked & light-mode when cliked again */
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     const toggleButton = document.getElementById('toggle-button');
+//     const body = document.body;
+
+//     toggleButton.addEventListener('click', () => {
+//         if (body.classList.contains('light-mode')) {
+//             body.classList.remove('light-mode');
+//             body.classList.add('dark-mode');
+//         } else {
+//             body.classList.remove('dark-mode');
+//             body.classList.add('light-mode');
+//         }
+//     });
+
+//     // Set the initial mode
+//     body.classList.add('light-mode');
+// });
+
+
+
+
+/* write a program to show differet alerts when different button are clicked */
+
+// let button = document.createElement("button");
+// button.innerText = "click me!";
+
+// let body = document.querySelector("body");
+// body.append(button);
+
+
+//JavaScript’s Prototype JavaScript’s Prototype JavaScript’s Prototype 
+
+// const student = {
+//     fullName : "saugat gautam",
+//     marks : 78,
+//     printMarks : function(){
+//         console.log("marks= ",this.marks);
+//     }
+// }
+
+// let student ={
+//     fullName : "Saugat gautam",
+//     marks : 98,
+//     printMarks : function(){
+//         console.log("marks = ",this.student);
+//     }
+// }
+
+
+     class car{
+        start(){
+            console.log("start");
+        }
+        stop(){
+            console.log("stop");
+        }
+     }
+let fortuner = new car();
 
 
