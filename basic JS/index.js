@@ -317,9 +317,9 @@
 
 // let num = [3, 4,5, 6, 7,4,8,10]
 
- // for(let  i = 0; i<num.length; i++){
- //     console.log(i);
- // }
+// for(let  i = 0; i<num.length; i++){
+//     console.log(i);
+// }
 
 // num.forEach((element)=>{
 //     console.log(element + element)
@@ -352,7 +352,7 @@
 // console.log(newarr);
 
 
-                                                        //  array filte
+//  array filte
 
 
 // let  arr = [45,56,673, 6,4,3,2,5,7,10];
@@ -547,14 +547,214 @@
 // }
 
 
-     class car{
-        start(){
-            console.log("start");
-        }
-        stop(){
-            console.log("stop");
-        }
-     }
-let fortuner = new car();
+//      class car{
+//         start(){
+//             console.log("start");
+//         }
+//         stop(){
+//             console.log("stop");
+//         } 
+//      }
+// let fortuner = new car();
 
+
+
+//                      class and objects
+
+//    class RailwayFrom{
+//     submit(){
+//         alert("from submitted");
+//     }
+//     cancel(){
+//         alert("This from is canced")
+//     }
+//    }
+//    let saugat = new RailwayFrom()
+//    let Bibash = new RailwayFrom()
+
+//    saugat.submit()
+//    Bibash.submit()
+//    Bibash.cancel()
+
+
+
+//JavaScript Classes
+// class person{
+//     constructor(name,age){
+//         this.name = name;
+//         this.age = age;
+//     }
+//     geet(){
+//         console.log(`hello,My name is ${this.name}, I am ${this.age} years old`);
+//     }
+// }
+
+// let person1 = new person("saugat", 17);
+// let person2 = new person("Bishal", 17);
+
+// person1.geet();
+// person1.geet();
+
+
+//                      extends KeyboardEvent
+
+
+
+// class Animal {
+//     constructor(Name, color) {
+//         this.Name = Name
+//         this.color = color
+//     }
+//     geet(){
+//         console.log(`this Animal name is ${this.Name}`)
+//     }
+
+// }
+
+// class dog extends Animal{
+//     hello(){
+//         console.log(`this animal color is ${this.color}`)
+//     }
+// }
+// let dogs = new dog("Rover","White")
+
+// dogs.geet()
+// dogs.hello()
+
+
+//                                     super Keywods
+
+// class Person {
+//     constructor(name) {
+//         this.name = name;
+//     }
+
+//     greet() {
+//         console.log(`Hello ${this.name}`);
+//     }
+// }
+
+// // inheriting parent class
+// class Student extends Person {
+
+//     constructor(name) {
+
+//         console.log("Creating student class");
+
+//         // call the super class constructor and pass in the name parameter
+//         super(name);
+//     }
+
+// }
+
+// let student1 = new Student('Jack');
+// student1.greet();
+
+
+
+
+//////////////////////////////////// method overriding
+
+
+// class employees{
+//     login(){
+//         console.log(`Employee has logged in`);
+//     }
+//     logout() {
+//         console.log(`Employee has logged out`);
+//     }
+//     requestLeaves(leaves){
+//         console.log(`Employee has requested ${leaves} dayes leave - Auto approve`);
+//     }
+// }
+
+// class programmer extends employees{
+//     requestCoffee(x){
+//         console.log(`employee has requested ${x} coffees`);
+//     }
+//     requestLeaves(leaves) {
+//         super.requestLeaves(3)
+//         console.log(`one extra is granted`);
+//         // console.log(`Employee has requested ${leaves + 1} dayes leave (one extra)`);
+
+//     }
+// }
+
+
+// let e = new programmer()
+// e.login()
+// e.requestLeaves(3)
+// e.requestCoffee(1)
+
+
+
+// class tesla {
+//     constructor(make, model) {
+//         this.make = make;
+//         this.model = model;
+//     }
+
+//     fumcation() {
+//         console.log(`start engine... for car`);
+//     }
+// }
+
+// class teslaModel2 extends tesla {
+//     fumcation() {
+//         console.log(`start engine... for teslaModel2`);
+//     }
+// }
+
+// let car = new teslaModel2();
+// car.fumcation();
+
+
+// class student{
+//     constructor(name,age,markss){
+//         this.name = name;
+//         this.age = age;
+//         this.markss = markss;
+//     }
+//     geet(){
+//         console.log(`student name is ${this.name}`);
+//         console.log(`student age ${this.age}`);
+//     }
+
+//     studentAge(){
+//         console.log(`student age : ${this.markss}`);
+//     }
+
+// }
+// class marks extends student{
+//     geet() {
+//         console.log(`student name is ${this.name} and marks are ${this.markss}`);
+//     }
+// }
+
+// let sub = new marks("hari",23,78);
+
+// sub.geet()
+// sub.studentAge()
+
+
+///////////////////////////////// static methods
+// class mathUnits{
+//     static square(number){
+//         return number*number;
+//     }
+// }
+
+// console.log(mathUnits.square(4));
+
+
+class mathUnits {
+    static add(a, b) {
+        return a + b;
+    }
+    static sub(a,b){
+     return a-b;
+    }
+}
+console.log(mathUnits.add(3,4));
+console.log(mathUnits.sub(44, 4));
 

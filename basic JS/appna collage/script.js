@@ -120,15 +120,48 @@
 // };
 
 
-let btn = document.querySelector("#btn1");
-btn.addEventListener("click",(evt)=>{
-    console.log("button was clicked");
-    console.log(evt);
-     console.log(evt.type);
+// let btn = document.querySelector("#btn1");
+// btn.addEventListener("click",(evt)=>{
+//     console.log("button was clicked");
+//     console.log(evt);
+//      console.log(evt.type);
 
-});
+// });
 
-btn.addEventListener("click", () =>{
-    console.log("button was clicked-1");
-});
+// btn.addEventListener("click", () =>{
+//     console.log("button was clicked-1");
+// });
 
+
+
+//                                           inheritance in js 
+
+// class parent {
+//     hello(){
+//         console.log("hello");
+//     }
+// }
+// class Child extends parent{}
+// let obj = new Child();
+
+class person{
+    constructor(){
+        this.species = "homo sapiens";
+    }
+    eat(){
+        console.log("eat");
+    }
+  
+}
+    class Engineer extends person{
+        constructor(branch){
+            console.log("enter child constructor");
+            super();//to invoke parent class constructor
+            this.branch = branch;
+            console.log("exit child constructor    ")
+        }
+        work(){
+            console.log("solve problem, bulid something")
+        }
+    }
+let engObj = new Engineer("chemica engg");
