@@ -747,14 +747,39 @@
 // console.log(mathUnits.square(4));
 
 
-class mathUnits {
-    static add(a, b) {
-        return a + b;
-    }
-    static sub(a,b){
-     return a-b;
-    }
-}
-console.log(mathUnits.add(3,4));
-console.log(mathUnits.sub(44, 4));
+// class mathUnits {
+//     static add(a, b) {
+//         return a + b;
+//     }
+//     static sub(a,b){
+//      return a-b;
+//     }
+// }
+// console.log(mathUnits.add(3,4));
+// console.log(mathUnits.sub(44, 4));
+
+
+// class user{
+//     constructor(name){
+//         this.name = name;
+//     }
+//     static newUser(){
+//         return new user("saugat gautam" );
+//     }
+// }
+// let NewUser = user.newUser();
+// console.log(NewUser.name);
+
+//   class mathUnits{
+//     static plush(a,b){
+//         return a+b;
+//     }
+//     static sud(a,b){
+//     return a-b;
+//     }
+//   }
+//   let add = mathUnits.plush(4,5);
+//   console.log(add);
+//  let sud = mathUnits.sud(4, 5);
+//  console.log(sud);
 
