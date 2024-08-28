@@ -783,3 +783,46 @@
 //  let sud = mathUnits.sud(4, 5);
 //  console.log(sud);
 
+
+
+// class car{
+//     constructor(brand,model,year){
+//         this.brand = brand;
+//         this.model = model;
+//         this.year = year;
+//     }
+//     dispayModelYearBrand(){
+//         console.log(`${this.brand} ${this.model} ${this.year}`);
+//     }
+//     static createElectricCar(model,year){
+//         return car (brand,model,year);
+//     }
+// }
+
+// let mycar = new car('Toyota','corola',2020);
+// mycar.dispayModelYearBrand();
+
+// let myElectricCar = new car('Tesla','model s',2023);
+// myElectricCar.dispayModelYearBrand();
+
+
+// class user {
+//     constructor(userName,email){
+//         this.userName = userName;
+//         this.email = email;
+//     }
+//     displayuserInfo(){
+//         console.log(`username: ${this.userName} email: ${this.email}`);
+//     }
+//     static isValidemail(email){
+//         let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+//          return emailRegex.test(email);
+//     }
+// }
+// let user1 = new user('saugat gautam\n','saugatgautam752@gmail.com');
+// user1.displayuserInfo();
+
+// console.log(user.isValidemail("saugatgautam752@gmail.com"));
+// console.log(user.isValidemail("saugatgautam"));
+
+
